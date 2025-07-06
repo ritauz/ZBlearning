@@ -1,0 +1,25 @@
+{
+    "name": "FastAPI Dev Container",
+    "dockerComposeFile": ["../../docker-compose.yml"],
+    "service": "backend",
+    "workspaceFolder": "/app",
+    "customizations": {
+      "vscode": {
+        "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+      "ms-python.python",             // Pythonサポート（必須）
+      "ms-python.vscode-pylance",     // 型推論と補完
+      "batisteo.vscode-django",       // FastAPIにも使えるテンプレ補完
+      "ms-azuretools.vscode-docker",  // Dockerサポート
+      "ms-python.black-formatter",    //  Python整形用
+      "ms-python.flake8",             //  Lintエラー検出
+      "ms-python.mypy-type-checker"   //  型チェック用
+    ]
+      }
+    },
+    
+    "postCreateCommand": "pip install -r requirements.txt"
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "name": "Next.js Dev Container",
+    "dockerComposeFile": ["../../docker-compose.yml"],
+    "service": "frontend",
+    "workspaceFolder": "/app",
+    "customizations": {
+      "vscode": {
+        "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+      "esbenp.prettier-vscode",      // コード整形（Prettier）
+      "dbaeumer.vscode-eslint",      // ESLintチェック
+      "bradlc.vscode-tailwindcss",   // Tailwind CSS補完
+      "bierner.markdown-preview-github-styles" // Markdownプレビュー
+    ]
+      }
+    },
+    
+    "postCreateCommand": "npm install"
+  }
+  

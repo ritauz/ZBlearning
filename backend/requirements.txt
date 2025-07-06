@@ -1,0 +1,9 @@
+fastapi
+mangum
+uvicorn
+
+# テスト・開発用
+pytest
+httpx         # API呼び出しテスト用
+mypy          # 型チェック
+pytest-cov    # カバレッジ
