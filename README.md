@@ -11,6 +11,7 @@
 
 - [x] [Docker Desktop](https://www.docker.com/products/docker-desktop/)
   - WSL2 統合が有効になっていること（Ubuntu 推奨）
+- [x] [WSL2](https://qiita.com/SAITO_Keita/items/148f794a5b358e5cb87b)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
   - 拡張機能：  
     - `Dev Containers`（ms-vscode-remote.remote-containers）
