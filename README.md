@@ -11,6 +11,7 @@
 
 - [x] [Docker Desktop](https://www.docker.com/products/docker-desktop/)
   - WSL2 統合が有効になっていること（Ubuntu 推奨）
+- [x] [WSL2](https://qiita.com/SAITO_Keita/items/148f794a5b358e5cb87b)
 - [x] [Visual Studio Code](https://code.visualstudio.com/)
   - 拡張機能：  
     - `Dev Containers`（ms-vscode-remote.remote-containers）
@@ -34,8 +35,6 @@ cd ZBlearning
 
 ## 🔧 フロントエンド（Next.js）
 ```bash
-コピーする
-編集する
 npm install
 npm run dev         # http://localhost:3000
 npm run test        # Vitestによる自動テスト
@@ -43,8 +42,6 @@ npm run type-check  # TypeScriptの型チェック
 ```
 ## 🔧 バックエンド（FastAPI）
 ```bash
-コピーする
-編集する
 make run            # http://localhost:8000
 make test           # pytest + coverage
 make type-check     # mypyによる型チェック
